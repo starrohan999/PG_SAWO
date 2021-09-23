@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#ffcccc;
+    background-image: radial-gradient(#ccffd5 3px, transparent 3px);
+    background-size: 50px 50px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container h1{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(233, 85, 85);
+    font-size:50px;
+
+}
